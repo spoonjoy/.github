@@ -53,7 +53,7 @@ const phone = (src, x, y, w, rot = 0, z = 1) => `<div class="phone shadow" style
 const still = (src) => `
     <div style="position:absolute;right:0;top:0;width:720px;height:480px"><img src="${dark ? src.replace(".png", "-dark.png") : src}" style="width:720px;height:480px;object-fit:cover"></div>
     <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 560px,color-mix(in srgb,var(--bone) 0%,transparent) 860px)"></div>
-    ${mark(96, 189, 170)}
+    ${mark(210, 189, 170)}
   `;
 const A = {
   // Org profile: the kitchen table. Dinner photo on the right, paper on the left with the mark and a shelf of covers, a phone on the seam.
@@ -75,6 +75,19 @@ const A = {
       <img src="site-1440-${theme}.png" style="width:900px">
     </div>
     <div class="plate shadow" style="left:880px;top:190px;width:320px;height:320px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
+  `,
+  // Social card art for the web app: the site's headline in a narrower window, the plate at its corner.
+  webog: () => `
+    <div class="window shadow" style="left:16px;top:64px;width:680px;height:600px">
+      <div class="chrome"><i></i><i></i><i></i><span class="pill"></span></div>
+      <img src="site-1440-${theme}.png" style="width:680px">
+    </div>
+    <div class="plate shadow" style="left:262px;top:300px;width:220px;height:220px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
+  `,
+  // Social card art for Apple: two whole phones.
+  appleog: () => `
+    ${phone("phone-01-cook.png", 22, 52, 200, -3, 2)}
+    ${phone("phone-02-recipe.png", 256, 36, 200, 3, 1)}
   `,
   // Apple: the Mac window, an iPhone in front.
   apple: () => `

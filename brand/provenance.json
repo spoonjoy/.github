@@ -67,7 +67,7 @@
   },
   {
     "file": "headers/redwoodjs-dbauth-oauth-light.webp",
-    "sha256": "63f8eb64d482f4c090e30d115c55e9aa0e4aed93b6e54c71d2d7425743a1cb71",
+    "sha256": "5f50236af60e693ecae3e8845704384be59082e8c611f1eda81b001ac3ee4c09",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=oauth&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -77,7 +77,7 @@
   },
   {
     "file": "headers/redwoodjs-dbauth-oauth-dark.webp",
-    "sha256": "6536dac078e7adf885319ac744f4854c678f54cdd83e9a9bf0c2b88ffa9e4e4e",
+    "sha256": "5269a278a456694ffd533ea47a5e1ce479028e434591b8ef1b1cde7d2bfa9fe9",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=oauth&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -87,7 +87,7 @@
   },
   {
     "file": "headers/spoonjoy-requests-issues-light.webp",
-    "sha256": "e2d9094a193a7af9e3f578bd2adab706c3b0ff0165b32a1b44315f6e43753502",
+    "sha256": "33b2ab141b747d83f9d7e6875a77a6131b8a7f122198e55e25259c979b2046a2",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=requests&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -97,7 +97,7 @@
   },
   {
     "file": "headers/spoonjoy-requests-issues-dark.webp",
-    "sha256": "d0f309071787406df16b203e15a0d69db47c63dc9ce6dbbbab1010736e8f7ced",
+    "sha256": "88ee0f7378a14d5e55bc277bd3dcae83ea7dae5c3493954b867bfa3f684ca2aa",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=requests&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -107,21 +107,20 @@
   },
   {
     "file": "social/spoonjoy-v2.jpg",
-    "sha256": "dad12f06d0740cdfce2d798eab3e0008a0caa11c16e21c54cabf9ac50f9f4f26",
+    "sha256": "a1671b186a91011feb946b37181fd18c013c95aa6f0ed3caeaaf49f034ddebbe",
     "size": "2560x1280",
-    "made": "brand/tools/compose.html?kind=og&art=web&ox=900 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "made": "brand/tools/compose.html?kind=og&art=webog&ox=0 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
     "sources": [
-      "https://spoonjoy.app home page, captured 2026-11-07 at 1440x900 in light and dark with signed-out Playwright Chromium",
+      "https://spoonjoy.app home page, captured 2026-11-07 at 1440x900 in light with signed-out Playwright Chromium",
       "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png"
     ]
   },
   {
     "file": "social/spoonjoy-apple.jpg",
-    "sha256": "4333f4aed91eb3679f0fd0dea675735b44e56209b9347db3441a8c4812577fd6",
+    "sha256": "3500cd1169021f72ddb95f06d1b99017327f1668db278e4c3d1e39362dea1c93",
     "size": "2560x1280",
-    "made": "brand/tools/compose.html?kind=og&art=apple&ox=880 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "made": "brand/tools/compose.html?kind=og&art=appleog&ox=0 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
     "sources": [
-      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/mac/03-kitchen.png, cropped to the window (x 454-2426, y 553-1800)",
       "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
     ]
   },
