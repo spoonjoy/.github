@@ -15,7 +15,7 @@
 
 **[spoonjoy-v2](https://github.com/spoonjoy/spoonjoy-v2)**: the web app, its API and its MCP server, on Cloudflare.
 
-<a href="https://github.com/spoonjoy/spoonjoy-apple"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-dark.webp"><img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-light.webp" alt="Spoonjoy on a Mac showing the kitchen, with two iPhones in front: one on the Lemon Pantry Pasta recipe, one in cook mode with a ten-minute timer" width="100%"></picture></a>
+<a href="https://github.com/spoonjoy/spoonjoy-apple"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-dark.webp"><img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-light.webp" alt="Spoonjoy on a Mac showing the kitchen, beside two iPhones: one in cook mode with a ten-minute timer, one on the Lemon Pantry Pasta recipe" width="100%"></picture></a>
 
 **[spoonjoy-apple](https://github.com/spoonjoy/spoonjoy-apple)**: the iPhone, iPad and Mac app, in SwiftUI. In internal TestFlight; not on the App Store yet.
 
