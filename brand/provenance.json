@@ -1,0 +1,188 @@
+[
+  {
+    "file": "headers/org-light.webp",
+    "sha256": "2699e69edd70933777d8746324230771fe9c57b8f453c1539dd6319013440f80",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=org&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "spoonjoy/spoonjoy-v2@main assets/sample-covers/{roast-chicken,squash-soup,penne-ragu}.jpg (Unsplash photos, Unsplash License, per scripts/qa-sample-covers.mjs)",
+      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png",
+      "spoonjoy/spoonjoy-v2@main assets/og/spoonjoy-home-dinner.jpg (Unsplash photo, Unsplash License; the photo on spoonjoy.app)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "headers/org-dark.webp",
+    "sha256": "367b311b93a4efa0c5a4510a30b1647735f3b044639a46aa821938e351adf88c",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=org&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "spoonjoy/spoonjoy-v2@main assets/sample-covers/{roast-chicken,squash-soup,penne-ragu}.jpg (Unsplash photos, Unsplash License, per scripts/qa-sample-covers.mjs)",
+      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png",
+      "spoonjoy/spoonjoy-v2@main assets/og/spoonjoy-home-dinner.jpg (Unsplash photo, Unsplash License; the photo on spoonjoy.app)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-v2-light.webp",
+    "sha256": "d53d970715a40e2ba208d3c3ed7b32db9346f516cbf135c33a55abd6462905fb",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=web&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "https://spoonjoy.app home page, captured 2026-11-07 at 1440x900 in light and dark with signed-out Playwright Chromium",
+      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-v2-dark.webp",
+    "sha256": "7dc56328943fa2f1a9600c134438e38cb92e62672e1f88015c8e59ea43350da8",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=web&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "https://spoonjoy.app home page, captured 2026-11-07 at 1440x900 in light and dark with signed-out Playwright Chromium",
+      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-apple-light.webp",
+    "sha256": "ea1a03ab1765785904fc38a13b7670e878b39e4d16de40bdf467f0e0cdea0793",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=apple&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/mac/03-kitchen.png, cropped to the window (x 454-2426, y 553-1800)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-apple-dark.webp",
+    "sha256": "b1bf54025f0c80f8cb25f4f3f62399bf3399857717823898c238ca7879ebbb58",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=apple&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/mac/03-kitchen.png, cropped to the window (x 454-2426, y 553-1800)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "headers/redwoodjs-dbauth-oauth-light.webp",
+    "sha256": "63f8eb64d482f4c090e30d115c55e9aa0e4aed93b6e54c71d2d7425743a1cb71",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=oauth&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/oauth-key.jpg"
+    ]
+  },
+  {
+    "file": "headers/redwoodjs-dbauth-oauth-dark.webp",
+    "sha256": "6536dac078e7adf885319ac744f4854c678f54cdd83e9a9bf0c2b88ffa9e4e4e",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=oauth&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/oauth-key-dark.jpg"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-requests-issues-light.webp",
+    "sha256": "e2d9094a193a7af9e3f578bd2adab706c3b0ff0165b32a1b44315f6e43753502",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=requests&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/requests-card.jpg"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-requests-issues-dark.webp",
+    "sha256": "d0f309071787406df16b203e15a0d69db47c63dc9ce6dbbbab1010736e8f7ced",
+    "size": "2560x960",
+    "made": "brand/tools/compose.html?art=requests&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/requests-card-dark.jpg"
+    ]
+  },
+  {
+    "file": "social/spoonjoy-v2.jpg",
+    "sha256": "dad12f06d0740cdfce2d798eab3e0008a0caa11c16e21c54cabf9ac50f9f4f26",
+    "size": "2560x1280",
+    "made": "brand/tools/compose.html?kind=og&art=web&ox=900 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "sources": [
+      "https://spoonjoy.app home page, captured 2026-11-07 at 1440x900 in light and dark with signed-out Playwright Chromium",
+      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png"
+    ]
+  },
+  {
+    "file": "social/spoonjoy-apple.jpg",
+    "sha256": "4333f4aed91eb3679f0fd0dea675735b44e56209b9347db3441a8c4812577fd6",
+    "size": "2560x1280",
+    "made": "brand/tools/compose.html?kind=og&art=apple&ox=880 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "sources": [
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/mac/03-kitchen.png, cropped to the window (x 454-2426, y 553-1800)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "social/redwoodjs-dbauth-oauth.jpg",
+    "sha256": "e8d05ee9c8c43a4cb5be47b104386f15e6e49323f64fb7c2b98f468f9fcaf62e",
+    "size": "2560x1280",
+    "made": "brand/tools/compose.html?kind=og&art=oauth&ox=1067 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/oauth-key.jpg"
+    ]
+  },
+  {
+    "file": "social/spoonjoy-requests-issues.jpg",
+    "sha256": "9ff1cd67463332810428b7ee229688fa6a987f1e0625ab2e41d556c5d3d7acaf",
+    "size": "2560x1280",
+    "made": "brand/tools/compose.html?kind=og&art=requests&ox=1067 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
+    "sources": [
+      "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
+      "brand/sources/requests-card.jpg"
+    ]
+  },
+  {
+    "file": "sources/oauth-key.jpg",
+    "sha256": "3afb7651d526c88824c101f17af36a2f29efe7dc53684605e4159a03222f765b",
+    "size": "1536x1024",
+    "made": "GitHub Copilot CLI 1.0.108 built-in image generation (`copilot --yolo -p <prompt>`, model gpt-6.1-sol), 2026-11-07, run in a folder holding the two reference photos; saved as PNG and re-encoded to JPEG quality 92 here",
+    "prompt": "Use your built-in image generation tool exactly once and save the result as oauth-key.png in this folder (landscape, 1536x1024, quality high). Match the photographic style of the two reference photos here (spoonjoy-home-dinner.jpg, LemonPantryPasta.imageset-lemon-pantry-pasta.jpg): editorial overhead food-table photography, soft natural window light, warm muted tones. Subject: overhead view of a warm off-white linen tablecloth (color close to #fbfaf4) on a kitchen table; right of centre, an old brass door key lies beside a wooden spoon, with a small bowl of lemons and a sprig of parsley near the right edge. The left half is calm empty linen. No text, no letters, no logos, no people, no hands.",
+    "sources": [
+      "spoonjoy-home-dinner.jpg and lemon-pantry-pasta.jpg as style references"
+    ]
+  },
+  {
+    "file": "sources/oauth-key-dark.jpg",
+    "sha256": "c291651040672ed89800618efc09645c5a8f3abed84e1137e6e8ac14abd358af",
+    "size": "1536x1024",
+    "made": "GitHub Copilot CLI 1.0.108 built-in image generation (`copilot --yolo -p <prompt>`, model gpt-6.1-sol), 2026-11-07, run in a folder holding the two reference photos; saved as PNG and re-encoded to JPEG quality 92 here",
+    "prompt": "Use your built-in image generation tool exactly once, with oauth-key.png in this folder as the input image to edit, and save the result as oauth-key-dark.png in this folder (landscape, 1536x1024, quality high). Keep the same objects in exactly the same positions and the same overhead framing, but turn the scene into a night kitchen: the tablecloth becomes deep warm charcoal linen (close to #1f1d1a), lit by a single warm low lamp from the upper right, soft long shadows, the objects keep their true colors. The left half stays calm, dark, empty linen. No text, no letters, no logos, no people, no hands.",
+    "sources": [
+      "brand/sources/oauth-key.jpg (its PNG original) as the input image"
+    ]
+  },
+  {
+    "file": "sources/requests-card.jpg",
+    "sha256": "57984f0fd5230051bd9bbbe207e7656b808504ff16f4b35448d2a405caef3df0",
+    "size": "1536x1024",
+    "made": "GitHub Copilot CLI 1.0.108 built-in image generation (`copilot --yolo -p <prompt>`, model gpt-6.1-sol), 2026-11-07, run in a folder holding the two reference photos; saved as PNG and re-encoded to JPEG quality 92 here",
+    "prompt": "Use your built-in image generation tool exactly once and save the result as requests-card.png in this folder (landscape, 1536x1024, quality high). Match the photographic style of the two reference photos here (spoonjoy-home-dinner.jpg, LemonPantryPasta.imageset-lemon-pantry-pasta.jpg): editorial overhead food-table photography, soft natural window light, warm muted tones. Subject: overhead view of a warm off-white linen tablecloth (color close to #fbfaf4) on a kitchen table; right of centre, a blank cream index card with a pencil resting across it, a small ceramic cup of wooden spoons, and a few scattered basil leaves near the right edge. The card is completely blank. The left half is calm empty linen. No text, no letters, no writing, no logos, no people, no hands.",
+    "sources": [
+      "spoonjoy-home-dinner.jpg and lemon-pantry-pasta.jpg as style references"
+    ]
+  },
+  {
+    "file": "sources/requests-card-dark.jpg",
+    "sha256": "a7e8a43ec7886245c425b823a280084a3a8faec80d75756fd15358ae5a7e49a6",
+    "size": "1536x1024",
+    "made": "GitHub Copilot CLI 1.0.108 built-in image generation (`copilot --yolo -p <prompt>`, model gpt-6.1-sol), 2026-11-07, run in a folder holding the two reference photos; saved as PNG and re-encoded to JPEG quality 92 here",
+    "prompt": "Use your built-in image generation tool exactly once, with requests-card.png in this folder as the input image to edit, and save the result as requests-card-dark.png in this folder (landscape, 1536x1024, quality high). Keep the same objects in exactly the same positions and the same overhead framing, but turn the scene into a night kitchen: the tablecloth becomes deep warm charcoal linen (close to #1f1d1a), lit by a single warm low lamp from the upper right, soft long shadows, the objects keep their true colors. The left half stays calm, dark, empty linen. No text, no letters, no logos, no people, no hands.",
+    "sources": [
+      "brand/sources/requests-card.jpg (its PNG original) as the input image"
+    ]
+  }
+]

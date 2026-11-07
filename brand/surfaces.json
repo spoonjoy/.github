@@ -1,0 +1,23 @@
+{
+  "about": "Every GitHub surface that carries the Spoonjoy brand. brand/tools/audit.mjs checks each one; CI runs it daily and on every change here.",
+  "canonicalRaw": "https://raw.githubusercontent.com/spoonjoy/.github/main/brand/",
+  "org": {
+    "login": "spoonjoy",
+    "name": "Spoonjoy",
+    "description": "The recipe app for the meals you actually cook.",
+    "blog": "https://spoonjoy.app",
+    "avatar": "Black Spoonjoy mark; the app icon is the same mark on bone. Change only through github.com/organizations/spoonjoy/settings/profile.",
+    "pinned": ["spoonjoy-v2", "spoonjoy-apple", "spoonjoy-requests-issues", "redwoodjs-dbauth-oauth"]
+  },
+  "surfaces": [
+    { "id": "profile", "kind": "org-profile", "repo": "spoonjoy/.github", "path": "profile/README.md", "header": "headers/org" },
+    { "id": "spoonjoy-v2", "kind": "repo", "repo": "spoonjoy/spoonjoy-v2", "header": "headers/spoonjoy-v2", "social": "social/spoonjoy-v2.jpg", "homepage": "https://spoonjoy.app" },
+    { "id": "spoonjoy-apple", "kind": "repo", "repo": "spoonjoy/spoonjoy-apple", "header": "headers/spoonjoy-apple", "social": "social/spoonjoy-apple.jpg", "homepage": "https://spoonjoy.app" },
+    { "id": "redwoodjs-dbauth-oauth", "kind": "repo", "repo": "spoonjoy/redwoodjs-dbauth-oauth", "header": "headers/redwoodjs-dbauth-oauth", "social": "social/redwoodjs-dbauth-oauth.jpg", "homepage": "https://www.npmjs.com/package/@spoonjoy/redwoodjs-dbauth-oauth-api" },
+    { "id": "spoonjoy-requests-issues", "kind": "repo", "repo": "spoonjoy/spoonjoy-requests-issues", "header": "headers/spoonjoy-requests-issues", "social": "social/spoonjoy-requests-issues.jpg", "homepage": "https://spoonjoy.app/support" }
+  ],
+  "archived": {
+    "about": "Archived repositories keep their READMEs. GitHub does not allow editing an archived repository's About without unarchiving it, so they are listed, not checked.",
+    "repos": ["spoonjoy/spoonjoy", "spoonjoy/spoonjoy-delivery", "spoonjoy/rj-website"]
+  }
+}

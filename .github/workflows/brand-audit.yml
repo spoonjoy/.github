@@ -1,0 +1,29 @@
+name: brand audit
+
+# Checks every surface in brand/surfaces.json: README headers, About fields, topics,
+# social previews, pinned repositories and brand file provenance. Red means a surface is stale.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "41 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Audit every Spoonjoy surface
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node brand/tools/audit.mjs

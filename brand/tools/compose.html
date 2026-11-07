@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400&family=IBM+Plex+Sans+Condensed:wght@500;600&display=block" rel="stylesheet">
+<style>
+  :root { --bone:#fbfaf4; --bone-lift:#fffefa; --charcoal:#28231d; --soft:#635d54; --brass:#9b6834; --tomato:#a24a38; --herb:#596a4f; --line:rgba(40,35,29,.16); }
+  .dark { --bone:#1f1d1a; --bone-lift:#282522; --charcoal:#f2eee6; --soft:#c8c0b4; --brass:#c4945c; --line:rgba(242,238,230,.14); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { background:transparent; }
+  .art { position:relative; overflow:hidden; background:var(--bone); color:var(--charcoal); }
+  .hdr { width:1280px; height:480px; }
+  .og { width:1280px; height:640px; }
+  img { display:block; }
+  .shadow { box-shadow: 0 30px 80px rgba(40,35,29,.22), 0 8px 24px rgba(40,35,29,.12); }
+  .dark .shadow { box-shadow: 0 30px 90px rgba(0,0,0,.55), 0 8px 24px rgba(0,0,0,.4); }
+  .phone { position:absolute; border-radius:15.5% / 7.2%; overflow:hidden; }
+  .phone img { width:100%; }
+  .window { position:absolute; border-radius:14px; overflow:hidden; background:var(--bone-lift); }
+  .chrome { height:30px; display:flex; align-items:center; gap:8px; padding:0 14px; background:#efece4; border-bottom:1px solid rgba(40,35,29,.1); }
+  .dark .chrome { background:#2c2925; border-bottom-color:rgba(255,255,255,.06); }
+  .chrome i { width:11px; height:11px; border-radius:50%; background:#d9d4c8; }
+  .dark .chrome i { background:#4a453e; }
+  .chrome .pill { margin-left:18px; height:16px; width:220px; border-radius:8px; background:rgba(40,35,29,.07); }
+  .dark .chrome .pill { background:rgba(255,255,255,.07); }
+  .mark { position:absolute; }
+  .mark { fill:var(--charcoal); }
+  .plate { position:absolute; border-radius:50%; overflow:hidden; }
+  .plate img { width:100%; height:100%; object-fit:cover; }
+  .cover { position:absolute; border-radius:4px; overflow:hidden; }
+  .cover img { width:100%; height:100%; object-fit:cover; }
+  .rule { position:absolute; height:1px; background:var(--line); }
+  .photo { position:absolute; inset:0; }
+  .photo img { width:100%; height:100%; object-fit:cover; }
+  .fade { position:absolute; inset:0; }
+  /* social preview text */
+  .kicker { font:600 22px/1 "IBM Plex Sans Condensed"; letter-spacing:.26em; text-transform:uppercase; color:var(--brass); }
+  .h1 { font:600 72px/1.02 Fraunces; letter-spacing:-.01em; font-variation-settings:"opsz" 144; }
+  .sub { font:400 28px/1.4 "Source Serif 4"; color:var(--soft); }
+  .foot { font:500 22px/1 "IBM Plex Sans Condensed"; letter-spacing:.08em; color:var(--soft); }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs><symbol id="sj" viewBox="0 0 500 300"><path d="M300 100h-62.135c-12.924.042-17.702 1.431-22.518 4.007-4.889 2.615-8.725 6.451-11.34 11.34-2.615 4.89-4.007 9.738-4.007 23.111V200h61.542c13.373 0 18.222-1.392 23.11-4.007 4.89-2.615 8.726-6.451 11.341-11.34 2.615-4.89 4.007-9.738 4.007-23.111V100zm100 84.625c0 40.119-4.177 54.666-12.021 69.333-7.844 14.667-19.354 26.177-34.02 34.021C339.29 295.823 324.743 300 284.624 300H38.458c-13.373 0-18.222-1.392-23.11-4.007-4.89-2.615-8.726-6.451-11.341-11.34C1.392 279.762 0 274.913 0 261.54v-23.08c0-13.373 1.392-18.222 4.007-23.11 2.615-4.89 6.451-8.726 11.34-11.341C20.237 201.392 25.086 200 38.459 200H100v-84.625c0-40.119 4.177-54.666 12.021-69.333 7.844-14.667 19.354-26.177 34.02-34.021C160.71 4.177 175.257 0 215.376 0h246.166c13.373 0 18.222 1.392 23.11 4.007 4.89 2.615 8.726 6.451 11.341 11.34C498.608 20.237 500 25.086 500 38.46v23.08c0 13.373-1.392 18.222-4.007 23.11-2.615 4.89-6.451 8.726-11.34 11.341C479.763 98.608 474.914 100 461.541 100H400v84.625z"/></symbol></defs></svg>
+<div id="root"></div>
+<script>
+const q = new URLSearchParams(location.search);
+const art = q.get("art"), theme = q.get("theme") || "light";
+const dark = theme === "dark";
+const mark = (x, y, w) => `<svg class="mark" style="left:${x}px;top:${y}px;width:${w}px;height:${w*0.6}px" viewBox="0 0 500 300"><use href="#sj"/></svg>`;
+const phone = (src, x, y, w, rot = 0, z = 1) => `<div class="phone shadow" style="left:${x}px;top:${y}px;width:${w}px;transform:rotate(${rot}deg);z-index:${z}"><img src="${src}"></div>`;
+const still = (src) => `
+    <div style="position:absolute;right:0;top:0;width:720px;height:480px"><img src="${dark ? src.replace(".png", "-dark.png") : src}" style="width:720px;height:480px;object-fit:cover"></div>
+    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 560px,color-mix(in srgb,var(--bone) 0%,transparent) 860px)"></div>
+    ${mark(96, 189, 170)}
+  `;
+const A = {
+  // Org profile: the kitchen table. Dinner photo on the right, paper on the left with the mark and a shelf of covers, a phone on the seam.
+  org: () => `
+    <div class="photo" style="left:500px"><img src="dinner.jpg" style="object-position:40% 50%"></div>
+    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 500px,color-mix(in srgb,var(--bone) 0%,transparent) 740px)"></div>
+    ${mark(88, 112, 170)}
+    <div class="rule" style="left:88px;top:244px;width:404px"></div>
+    <div class="cover shadow" style="left:88px;top:276px;width:92px;height:122px"><img src="lemon-pasta.png" style="object-position:42% 50%"></div>
+    <div class="cover shadow" style="left:192px;top:276px;width:92px;height:122px"><img src="roast-chicken.jpg"></div>
+    <div class="cover shadow" style="left:296px;top:276px;width:92px;height:122px"><img src="squash-soup.jpg"></div>
+    <div class="cover shadow" style="left:400px;top:276px;width:92px;height:122px"><img src="penne-ragu.jpg"></div>
+    ${phone("phone-03-kitchen.png", 650, 52, 250, -4, 2)}
+  `,
+  // Web app: the site in a browser window, a plate of lemon pasta set beside it.
+  web: () => `
+    <div class="window shadow" style="left:96px;top:60px;width:900px;height:600px">
+      <div class="chrome"><i></i><i></i><i></i><span class="pill"></span></div>
+      <img src="site-1440-${theme}.png" style="width:900px">
+    </div>
+    <div class="plate shadow" style="left:880px;top:190px;width:320px;height:320px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
+  `,
+  // Apple: the Mac window, an iPhone in front.
+  apple: () => `
+    <div class="window shadow" style="left:120px;top:70px;width:820px;border-radius:12px"><img src="mac-kitchen.png" style="width:820px"></div>
+    ${phone("phone-02-recipe.png", 870, 40, 230, 3, 2)}
+    ${phone("phone-01-cook.png", 700, 120, 220, -5, 3)}
+  `,
+  // RedwoodJS dbAuth OAuth: the key photo on the right, paper and the mark on the left.
+  oauth: () => still("oauth-key.png"),
+  // Requests and issues: the blank card photo.
+  requests: () => still("requests-card.png"),
+};
+const OG = {
+  org: ["Spoonjoy", "The recipe app for the meals you actually cook.", "Recipes, cookbooks, cook mode and a shopping list, on the web, iPhone, iPad and Mac.", "spoonjoy.app"],
+};
+function og(name, kicker, title, sub, foot) {
+  return `<div class="art og ${dark ? "dark" : ""}">
+    <div style="position:absolute;left:0;top:0;width:640px;height:640px;padding:64px 56px 56px 64px;display:flex;flex-direction:column">
+      <div class="kicker" style="display:flex;align-items:center;gap:16px"><svg style="width:50px;height:30px;fill:var(--brass)" viewBox="0 0 500 300"><use href="#sj"/></svg>${kicker}</div>
+      <div style="width:120px;height:4px;background:var(--brass);margin:26px 0 34px"></div>
+      <div class="h1">${title}</div>
+      <div class="sub" style="margin-top:26px">${sub}</div>
+      <div class="foot" style="margin-top:auto">${foot}</div>
+    </div>
+    <div style="position:absolute;left:640px;top:0;width:640px;height:640px;overflow:hidden;border-left:6px solid var(--brass)">
+      <div id="ogart" style="position:absolute;left:${-(q.get("ox")||320)}px;top:${-(q.get("oy")||0)}px;transform-origin:0 0;transform:scale(${q.get("os")||1.333})"><div class="art hdr ${dark ? "dark" : ""}">${A[name]()}</div></div>
+    </div>
+  </div>`;
+}
+const root = document.getElementById("root");
+if (q.get("kind") === "og") {
+  root.innerHTML = og(art, q.get("kicker"), q.get("title"), q.get("sub"), q.get("foot"));
+} else {
+  root.innerHTML = `<div class="art hdr ${dark ? "dark" : ""}">${A[art]()}</div>`;
+}
+</script>
+</body>
+</html>
