@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://spoonjoy.app"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/org-dark.webp">
-    <img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/org-light.webp" alt="The Spoonjoy mark above a shelf of four recipe covers, then a dinner table spread with an iPhone showing the Spoonjoy kitchen" width="100%">
+    <img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/org-light.webp" alt="The Spoonjoy mark beside an iPhone showing the Spoonjoy kitchen, set on a dinner table" width="100%">
   </picture></a>
 </p>
 
-# Spoonjoy
+# The recipe app for the meals you actually cook
 
-**The recipe app for the meals you actually cook.** Recipes you can cook from one step at a time, cookbooks that grow out of real meals, and one shopping list sorted by aisle.
+Recipes you can cook from one step at a time, cookbooks that grow out of real meals, and one shopping list sorted by aisle.
 
 [**Cook a recipe now, no account needed →**](https://spoonjoy.app/test-kitchen) &nbsp;·&nbsp; [spoonjoy.app](https://spoonjoy.app) &nbsp;·&nbsp; [Support](https://spoonjoy.app/support)
 
