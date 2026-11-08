@@ -5,8 +5,6 @@
   </picture></a>
 </p>
 
-# The recipe app for the meals you actually cook
-
 Recipes you can cook from one step at a time, cookbooks that grow out of real meals, and one shopping list sorted by aisle.
 
 [**Cook a recipe now, no account needed →**](https://spoonjoy.app/test-kitchen) &nbsp;·&nbsp; [spoonjoy.app](https://spoonjoy.app) &nbsp;·&nbsp; [Support](https://spoonjoy.app/support)
@@ -17,7 +15,7 @@ Recipes you can cook from one step at a time, cookbooks that grow out of real me
 
 <a href="https://github.com/spoonjoy/spoonjoy-apple"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-dark.webp"><img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-apple-light.webp" alt="Spoonjoy on a Mac showing the kitchen, beside two iPhones: one in cook mode with a ten-minute timer, one on the Lemon Pantry Pasta recipe" width="100%"></picture></a>
 
-**[spoonjoy-apple](https://github.com/spoonjoy/spoonjoy-apple)**: the iPhone, iPad and Mac app, in SwiftUI. In internal TestFlight; not on the App Store yet.
+**[spoonjoy-apple](https://github.com/spoonjoy/spoonjoy-apple)**: the iPhone, iPad and Mac app, in SwiftUI. In internal TestFlight and submitted to App Review; not on the App Store yet.
 
 **Bring your agent.** Spoonjoy has a [REST API and an MCP server](https://spoonjoy.app/developers) at `https://spoonjoy.app/mcp`, so an agent can write recipes, sort cookbooks and fill your shopping list. Agents can start from [spoonjoy.app/llms.txt](https://spoonjoy.app/llms.txt).
 
