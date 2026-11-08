@@ -1,26 +1,22 @@
 [
   {
     "file": "headers/org-light.webp",
-    "sha256": "2699e69edd70933777d8746324230771fe9c57b8f453c1539dd6319013440f80",
+    "sha256": "dfb82b2efc9f35c443d6e28e34be16761d0582f531d7924cd099d409e9f5e319",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=org&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
       "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
-      "spoonjoy/spoonjoy-v2@main assets/sample-covers/{roast-chicken,squash-soup,penne-ragu}.jpg (Unsplash photos, Unsplash License, per scripts/qa-sample-covers.mjs)",
-      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png",
       "spoonjoy/spoonjoy-v2@main assets/og/spoonjoy-home-dinner.jpg (Unsplash photo, Unsplash License; the photo on spoonjoy.app)",
       "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
     ]
   },
   {
     "file": "headers/org-dark.webp",
-    "sha256": "367b311b93a4efa0c5a4510a30b1647735f3b044639a46aa821938e351adf88c",
+    "sha256": "2e95dd4a01d2e33599a53f1ef00ccab26ebd09246ceff398cafb56c519987307",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=org&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
       "spoonjoy/spoonjoy-v2@main public/logos/sj_black.svg (the Spoonjoy mark)",
-      "spoonjoy/spoonjoy-v2@main assets/sample-covers/{roast-chicken,squash-soup,penne-ragu}.jpg (Unsplash photos, Unsplash License, per scripts/qa-sample-covers.mjs)",
-      "spoonjoy/spoonjoy-apple@main Apps/Spoonjoy/Shared/Assets.xcassets/LemonPantryPasta.imageset/lemon-pantry-pasta.png",
       "spoonjoy/spoonjoy-v2@main assets/og/spoonjoy-home-dinner.jpg (Unsplash photo, Unsplash License; the photo on spoonjoy.app)",
       "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
     ]

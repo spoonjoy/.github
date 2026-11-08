@@ -56,17 +56,12 @@ const still = (src) => `
     ${mark(150, 189, 170)}
   `;
 const A = {
-  // Org profile: the kitchen table. Dinner photo on the right, paper on the left with the mark and a shelf of covers, a phone on the seam.
+  // Org profile: the kitchen table. Dinner photo on the right, paper on the left with a large mark, a phone on the seam. Sized to read at phone width.
   org: () => `
-    <div class="photo" style="left:500px"><img src="dinner.jpg" style="object-position:40% 50%"></div>
-    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 500px,color-mix(in srgb,var(--bone) 0%,transparent) 740px)"></div>
-    ${mark(88, 112, 170)}
-    <div class="rule" style="left:88px;top:244px;width:404px"></div>
-    <div class="cover shadow" style="left:88px;top:276px;width:92px;height:122px"><img src="lemon-pasta.png" style="object-position:42% 50%"></div>
-    <div class="cover shadow" style="left:192px;top:276px;width:92px;height:122px"><img src="roast-chicken.jpg"></div>
-    <div class="cover shadow" style="left:296px;top:276px;width:92px;height:122px"><img src="squash-soup.jpg"></div>
-    <div class="cover shadow" style="left:400px;top:276px;width:92px;height:122px"><img src="penne-ragu.jpg"></div>
-    ${phone("phone-03-kitchen.png", 650, 52, 250, -4, 2)}
+    <div class="photo" style="left:470px"><img src="dinner.jpg" style="object-position:40% 50%"></div>
+    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 470px,color-mix(in srgb,var(--bone) 0%,transparent) 720px)"></div>
+    ${mark(96, 150, 300)}
+    ${phone("phone-03-kitchen.png", 640, 34, 300, -4, 2)}
   `,
   // Web app: the site in a browser window, a plate of lemon pasta set beside it.
   web: () => `
