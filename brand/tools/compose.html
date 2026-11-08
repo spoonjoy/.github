@@ -51,9 +51,9 @@ const dark = theme === "dark";
 const mark = (x, y, w) => `<svg class="mark" style="left:${x}px;top:${y}px;width:${w}px;height:${w*0.6}px" viewBox="0 0 500 300"><use href="#sj"/></svg>`;
 const phone = (src, x, y, w, rot = 0, z = 1) => `<div class="phone shadow" style="left:${x}px;top:${y}px;width:${w}px;transform:rotate(${rot}deg);z-index:${z}"><img src="${src}"></div>`;
 const still = (src) => `
-    <div style="position:absolute;right:0;top:0;width:720px;height:480px"><img src="${dark ? src.replace(".png", "-dark.png") : src}" style="width:720px;height:480px;object-fit:cover"></div>
-    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 560px,color-mix(in srgb,var(--bone) 0%,transparent) 860px)"></div>
-    ${mark(210, 189, 170)}
+    <div style="position:absolute;right:0;top:0;width:820px;height:480px"><img src="${dark ? src.replace(".png", "-dark.png") : src}" style="width:820px;height:480px;object-fit:cover"></div>
+    <div class="fade" style="background:linear-gradient(90deg,var(--bone) 0,var(--bone) 460px,color-mix(in srgb,var(--bone) 0%,transparent) 720px)"></div>
+    ${mark(150, 189, 170)}
   `;
 const A = {
   // Org profile: the kitchen table. Dinner photo on the right, paper on the left with the mark and a shelf of covers, a phone on the seam.
@@ -70,19 +70,19 @@ const A = {
   `,
   // Web app: the site in a browser window, a plate of lemon pasta set beside it.
   web: () => `
-    <div class="window shadow" style="left:96px;top:60px;width:900px;height:600px">
+    <div class="window shadow" style="left:72px;top:82px;width:900px;height:318px">
       <div class="chrome"><i></i><i></i><i></i><span class="pill"></span></div>
       <img src="site-1440-${theme}.png" style="width:900px">
     </div>
-    <div class="plate shadow" style="left:880px;top:190px;width:320px;height:320px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
+    <div class="plate shadow" style="left:880px;top:112px;width:300px;height:300px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
   `,
   // Social card art for the web app: the site's headline in a narrower window, the plate at its corner.
   webog: () => `
-    <div class="window shadow" style="left:16px;top:64px;width:680px;height:600px">
+    <div class="window shadow" style="left:16px;top:52px;width:680px;height:246px">
       <div class="chrome"><i></i><i></i><i></i><span class="pill"></span></div>
       <img src="site-1440-${theme}.png" style="width:680px">
     </div>
-    <div class="plate shadow" style="left:262px;top:300px;width:220px;height:220px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
+    <div class="plate shadow" style="left:296px;top:300px;width:168px;height:168px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
   `,
   // Social card art for Apple: two whole phones.
   appleog: () => `
@@ -91,9 +91,9 @@ const A = {
   `,
   // Apple: the Mac window, an iPhone in front.
   apple: () => `
-    <div class="window shadow" style="left:72px;top:62px;width:600px;border-radius:10px"><img src="mac-kitchen.png" style="width:600px"></div>
-    ${phone("phone-01-cook.png", 716, 52, 210, -3, 2)}
-    ${phone("phone-02-recipe.png", 966, 40, 210, 3, 2)}
+    <div class="window shadow" style="left:72px;top:56px;width:580px;border-radius:10px"><img src="mac-kitchen.png" style="width:580px"></div>
+    ${phone("phone-01-cook.png", 712, 40, 186, -3, 2)}
+    ${phone("phone-02-recipe.png", 948, 34, 186, 3, 2)}
   `,
   // RedwoodJS dbAuth OAuth: the key photo on the right, paper and the mark on the left.
   oauth: () => still("oauth-key.png"),
