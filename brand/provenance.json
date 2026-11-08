@@ -27,7 +27,7 @@
   },
   {
     "file": "headers/spoonjoy-v2-light.webp",
-    "sha256": "d53d970715a40e2ba208d3c3ed7b32db9346f516cbf135c33a55abd6462905fb",
+    "sha256": "92d7ead4670fd1e6f53002533c34a7e0416177f910b6d483e1e7fd65621d4cf6",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=web&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -37,7 +37,7 @@
   },
   {
     "file": "headers/spoonjoy-v2-dark.webp",
-    "sha256": "7dc56328943fa2f1a9600c134438e38cb92e62672e1f88015c8e59ea43350da8",
+    "sha256": "62ad81b6c1abcdf2251991555132b527773695b2d6c5d5bb8427464b82b1c962",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=web&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -47,7 +47,7 @@
   },
   {
     "file": "headers/spoonjoy-apple-light.webp",
-    "sha256": "63f5f4ab6db24cde70d1603084f9e95338a569f481ebab669752abb405298a38",
+    "sha256": "b90d23ecb4d518bef95bd1b23c40e9622319ad9f95bd0939959fbb14798de4e5",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=apple&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -57,7 +57,7 @@
   },
   {
     "file": "headers/spoonjoy-apple-dark.webp",
-    "sha256": "cd1c18986077bef63e8985ff135a2c94030a5b24b2fcf51f1466a5ceea5bc545",
+    "sha256": "fe86d963eb12346936bb8aa9e2f861033ea0fde1bb324df106169350d856e3f3",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=apple&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -67,7 +67,7 @@
   },
   {
     "file": "headers/redwoodjs-dbauth-oauth-light.webp",
-    "sha256": "5f50236af60e693ecae3e8845704384be59082e8c611f1eda81b001ac3ee4c09",
+    "sha256": "a60926534fb72731af9a905722251b79357667dfc5ec22e8a34714426c2c4851",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=oauth&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -77,7 +77,7 @@
   },
   {
     "file": "headers/redwoodjs-dbauth-oauth-dark.webp",
-    "sha256": "5269a278a456694ffd533ea47a5e1ce479028e434591b8ef1b1cde7d2bfa9fe9",
+    "sha256": "4a1b3395544012b7b1a126065db9be246cba0cad0e4d83441d6ff6b276ff2f3b",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=oauth&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -87,7 +87,7 @@
   },
   {
     "file": "headers/spoonjoy-requests-issues-light.webp",
-    "sha256": "33b2ab141b747d83f9d7e6875a77a6131b8a7f122198e55e25259c979b2046a2",
+    "sha256": "929079e1de2301b8922ceb3c5e70afa20d52ddb1f042a4ae07f69205dc7199f9",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=requests&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -97,7 +97,7 @@
   },
   {
     "file": "headers/spoonjoy-requests-issues-dark.webp",
-    "sha256": "88ee0f7378a14d5e55bc277bd3dcae83ea7dae5c3493954b867bfa3f684ca2aa",
+    "sha256": "3bc3a605727599962eb7419310d4b8bdb4981bd3976ed122a24ae373c4db120f",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=requests&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -107,7 +107,7 @@
   },
   {
     "file": "social/spoonjoy-v2.jpg",
-    "sha256": "a1671b186a91011feb946b37181fd18c013c95aa6f0ed3caeaaf49f034ddebbe",
+    "sha256": "2b4897b7eceec981e57aa7dddbcd11148ebb67e7130e7ec5a02b2d44d00d02b0",
     "size": "2560x1280",
     "made": "brand/tools/compose.html?kind=og&art=webog&ox=0 plus the kicker, title, sub and foot text shown in the card, rendered at 2x, JPEG quality 88",
     "sources": [

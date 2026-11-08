@@ -11,7 +11,7 @@
 
 [**Cook a recipe now, no account needed →**](https://spoonjoy.app/test-kitchen) &nbsp;·&nbsp; [spoonjoy.app](https://spoonjoy.app) &nbsp;·&nbsp; [Support](https://spoonjoy.app/support)
 
-<a href="https://github.com/spoonjoy/spoonjoy-v2"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-v2-dark.webp"><img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-v2-light.webp" alt="The Spoonjoy home page open in a browser window, with a plate of lemon pantry pasta set beside it" width="100%"></picture></a>
+<a href="https://github.com/spoonjoy/spoonjoy-v2"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-v2-dark.webp"><img src="https://raw.githubusercontent.com/spoonjoy/.github/main/brand/headers/spoonjoy-v2-light.webp" alt="The Spoonjoy home page headline, &ldquo;Your food should look as good as it tastes,&rdquo; in a browser window, with a plate of lemon pantry pasta at its edge" width="100%"></picture></a>
 
 **[spoonjoy-v2](https://github.com/spoonjoy/spoonjoy-v2)**: the web app, its API and its MCP server, on Cloudflare.
 
