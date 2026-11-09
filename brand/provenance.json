@@ -23,7 +23,7 @@
   },
   {
     "file": "headers/spoonjoy-v2-light.webp",
-    "sha256": "92d7ead4670fd1e6f53002533c34a7e0416177f910b6d483e1e7fd65621d4cf6",
+    "sha256": "4da08c2786c7b1987ec9120f29d7cd32d40023d37c7a83d448933eaa6a437155",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=web&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -33,7 +33,7 @@
   },
   {
     "file": "headers/spoonjoy-v2-dark.webp",
-    "sha256": "62ad81b6c1abcdf2251991555132b527773695b2d6c5d5bb8427464b82b1c962",
+    "sha256": "647a03e13da6ac8523250e60f28d5cae1c2d24b8e8d8e7b4de0643f2db2744d1",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=web&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
