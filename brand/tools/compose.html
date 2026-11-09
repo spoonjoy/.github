@@ -15,6 +15,9 @@
   img { display:block; }
   .shadow { box-shadow: 0 30px 80px rgba(40,35,29,.22), 0 8px 24px rgba(40,35,29,.12); }
   .dark .shadow { box-shadow: 0 30px 90px rgba(0,0,0,.55), 0 8px 24px rgba(0,0,0,.4); }
+  /* Social cards scale the art up, where Chrome cuts a large box-shadow blur off in a visible step; draw it as a filter instead. */
+  .og .shadow { box-shadow:none; filter: drop-shadow(0 30px 40px rgba(40,35,29,.22)) drop-shadow(0 8px 12px rgba(40,35,29,.12)); }
+  .og.dark .shadow { box-shadow:none; filter: drop-shadow(0 30px 45px rgba(0,0,0,.55)) drop-shadow(0 8px 12px rgba(0,0,0,.4)); }
   .phone { position:absolute; border-radius:15.5% / 7.2%; overflow:hidden; }
   .phone img { width:100%; }
   .window { position:absolute; border-radius:14px; overflow:hidden; background:var(--bone-lift); }
@@ -113,7 +116,7 @@ function og(name, kicker, title, sub, foot) {
       <div class="foot" style="margin-top:auto">${foot}</div>
     </div>
     <div style="position:absolute;left:640px;top:0;width:640px;height:640px;overflow:hidden;border-left:6px solid var(--brass)">
-      <div id="ogart" style="position:absolute;left:${-(q.get("ox")||320)}px;top:${-(q.get("oy")||0)}px;transform-origin:0 0;transform:scale(${q.get("os")||1.333})"><div class="art hdr ${dark ? "dark" : ""}">${A[name]()}</div></div>
+      <div id="ogart" style="position:absolute;left:${-(q.get("ox")||320)}px;top:${-(q.get("oy")||0)}px;${q.get("zoom") ? `zoom:${q.get("os")||1.333}` : `transform-origin:0 0;transform:scale(${q.get("os")||1.333})`}"><div class="art hdr ${dark ? "dark" : ""}">${A[name]()}</div></div>
     </div>
   </div>`;
 }
