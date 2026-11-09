@@ -79,6 +79,11 @@ const A = {
     </div>
     <div class="plate shadow" style="left:296px;top:300px;width:168px;height:168px"><img src="lemon-pasta.png" style="object-position:43% 50%;transform:scale(1.08)"></div>
   `,
+  // Apple, narrow screens (render with h=880): the two phones alone, large enough to read at 390px.
+  applenarrow: () => `
+    ${phone("phone-01-cook.png", 236, 92, 360, -3, 2)}
+    ${phone("phone-02-recipe.png", 684, 82, 360, 3, 1)}
+  `,
   // Social card art for Apple: two whole phones.
   appleog: () => `
     ${phone("phone-01-cook.png", 22, 52, 200, -3, 2)}
@@ -116,7 +121,7 @@ const root = document.getElementById("root");
 if (q.get("kind") === "og") {
   root.innerHTML = og(art, q.get("kicker"), q.get("title"), q.get("sub"), q.get("foot"));
 } else {
-  root.innerHTML = `<div class="art hdr ${dark ? "dark" : ""}">${A[art]()}</div>`;
+  root.innerHTML = `<div class="art hdr ${dark ? "dark" : ""}"${q.get("h") ? ` style="height:${q.get("h")}px"` : ""}>${A[art]()}</div>`;
 }
 </script>
 </body>

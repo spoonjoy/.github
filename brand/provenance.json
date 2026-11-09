@@ -52,12 +52,30 @@
     ]
   },
   {
+    "file": "headers/spoonjoy-apple-narrow-light.webp",
+    "sha256": "b3410aeda100316211b1863825644682ffe77ed493dbc705ab0a111594dd7e88",
+    "size": "2560x1760",
+    "made": "brand/tools/compose.html?art=applenarrow&theme=light&h=880, rendered at 2x by brand/tools/render.cjs, WebP quality 84; served to screens up to 600px wide",
+    "sources": [
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
     "file": "headers/spoonjoy-apple-dark.webp",
     "sha256": "8ad1a5c50a92991d829e2af6327752e84a98df9f5c7ed09c55f2f1dc1afc3c93",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=apple&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
       "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/mac/03-kitchen.png, cropped to the window (x 454-2426, y 553-1800)",
+      "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
+    ]
+  },
+  {
+    "file": "headers/spoonjoy-apple-narrow-dark.webp",
+    "sha256": "45332440a5dcc800304330d64e9ee5887c38f0d8ab815dc6b47026f29e3581c6",
+    "size": "2560x1760",
+    "made": "brand/tools/compose.html?art=applenarrow&theme=dark&h=880, rendered at 2x by brand/tools/render.cjs, WebP quality 84; served to screens up to 600px wide",
+    "sources": [
       "spoonjoy/spoonjoy-apple@main distribution/app-store/screenshots/iphone-69/{01-cook,02-recipe,03-kitchen}.png, cropped to the device (x 109-1211, y 706-2868)"
     ]
   },
