@@ -43,7 +43,7 @@
   },
   {
     "file": "headers/spoonjoy-apple-light.webp",
-    "sha256": "b90d23ecb4d518bef95bd1b23c40e9622319ad9f95bd0939959fbb14798de4e5",
+    "sha256": "a53039246c01871aa24c3e74462ed94a96544ce4f0b7df159097763475d6ed00",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=apple&theme=light, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
@@ -53,7 +53,7 @@
   },
   {
     "file": "headers/spoonjoy-apple-dark.webp",
-    "sha256": "fe86d963eb12346936bb8aa9e2f861033ea0fde1bb324df106169350d856e3f3",
+    "sha256": "8ad1a5c50a92991d829e2af6327752e84a98df9f5c7ed09c55f2f1dc1afc3c93",
     "size": "2560x960",
     "made": "brand/tools/compose.html?art=apple&theme=dark, rendered at 2x by brand/tools/render.cjs, WebP quality 84",
     "sources": [
